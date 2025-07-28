@@ -1,0 +1,256 @@
+pageInfo:
+  title: slxt.org
+  description: Welcome to Dashboard of slxt.org
+appConfig:
+  theme: cherry-blossom
+  layout: auto
+  iconSize: medium
+  startingView: default
+  defaultOpeningMethod: newtab
+  statusCheck: true
+  statusCheckInterval: 60
+  faviconApi: allesedv
+  routingMode: history
+  enableMultiTasking: false
+  widgetsAlwaysUseProxy: false
+  webSearch:
+    disableWebSearch: false
+    searchEngine: duckduckgo
+    openingMethod: newtab
+    searchBangs: {}
+  enableFontAwesome: true
+  enableMaterialDesignIcons: false
+  hideComponents:
+    hideHeading: false
+    hideNav: false
+    hideSearch: false
+    hideSettings: true
+    hideFooter: true
+  auth:
+    enableGuestAccess: false
+    users: []
+    enableOidc: false
+    oidc: {}
+    enableHeaderAuth: false
+    headerAuth:
+      userHeader: REMOTE_USER
+      proxyWhitelist: []
+    enableKeycloak: false
+  showSplashScreen: true
+  preventWriteToDisk: true
+  preventLocalSave: true
+  disableConfiguration: true
+  disableConfigurationForNonAdmin: true
+  allowConfigEdit: false
+  enableServiceWorker: false
+  disableContextMenu: false
+  disableUpdateChecks: false
+  disableSmartSort: false
+  enableErrorReporting: false
+sections:
+  - name: Portfolios
+    icon: fa fa-address-book
+    items:
+      - &ref_0
+        title: slxt.org
+        description: slxt.org
+        icon: fa fa-address-card
+        url: https://slxt.org
+        target: newtab
+        id: 0_1073_slxtorg
+      - &ref_1
+        title: slxt.dev
+        description: slxt.dev
+        icon: fa fa-address-card
+        url: https://slxt.dev
+        target: newtab
+        id: 1_1073_slxtdev
+      - &ref_2
+        title: Docs Page
+        description: Docs Page
+        icon: fa fa-address-card
+        url: https://doc.slxt.org
+        target: newtab
+        id: 2_1073_docspage
+    displayData:
+      sortBy: default
+      rows: 2
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    filteredItems:
+      - *ref_0
+      - *ref_1
+      - *ref_2
+  - name: Ask Date Pages
+    icon: fa fa-heart
+    displayData:
+      sortBy: default
+      rows: 2
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_3
+        title: Date me Page 1
+        description: Date me Page 1
+        icon: fa fa-heart
+        url: https://datenow.me
+        target: newtab
+        id: 0_1229_datemepage
+      - &ref_4
+        title: Date me Page 2
+        description: Date me Page 2
+        icon: fa fa-heart
+        url: https://pls1.datenow.me
+        target: newtab
+        id: 1_1229_datemepage
+      - &ref_5
+        title: Date me Page 3
+        description: Date me Page 3
+        icon: fa fa-heart
+        url: https://pls2.datenow.me
+        target: newtab
+        id: 2_1229_datemepage
+    filteredItems:
+      - *ref_3
+      - *ref_4
+      - *ref_5
+  - name: Love Shit
+    icon: fa fa-heart
+    displayData:
+      sortBy: default
+      rows: 2
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_6
+        title: Love u Animation
+        description: Love u Animation
+        icon: fa fa-heart
+        url: https://love.datenow.me
+        target: newtab
+        id: 0_846_loveuanimation
+      - &ref_7
+        title: Wheel Spinner
+        description: Wheel Spinner
+        icon: fa fa-heart
+        url: https://spin.slxt.org
+        target: newtab
+        id: 1_846_wheelspinner
+    filteredItems:
+      - *ref_6
+      - *ref_7
+  - name: Media-Sharing
+    icon: fa fa-medium
+    displayData:
+      sortBy: default
+      rows: 2
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_8
+        title: Next-Cloud
+        description: Next-Cloud via Docker
+        icon: fa fa-files-o
+        url: https://cloud.slxt.org
+        target: newtab
+        id: 0_1241_nextcloud
+    filteredItems:
+      - *ref_8
+  - name: Tools
+    icon: fa fa-list
+    displayData:
+      sortBy: default
+      rows: 2
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_9
+        title: Kasm Workspace
+        description: Kasm Workspace
+        icon: fa fa-key
+        url: https://kasm.slxt.org
+        target: newtab
+        id: 0_529_kasmworkspace
+      - &ref_10
+        title: Tools Page
+        description: Tools Page
+        icon: fa fa-key
+        url: https://tools.slxt.org
+        target: newtab
+        id: 1_529_toolspage
+      - &ref_11
+        title: Ai
+        description: ai
+        icon: fa fa-key
+        url: https://ai.slxt.org
+        target: newtab
+        id: 2_529_ai
+      - &ref_12
+        title: Guacamole
+        description: Guacamole
+        icon: fa fa-key
+        url: https://guac.slxt.org
+        target: newtab
+        id: 3_529_guacamole
+    filteredItems:
+      - *ref_9
+      - *ref_10
+      - *ref_11
+      - *ref_12
+  - name: Monitoring
+    icon: fa fa-list
+    displayData:
+      sortBy: default
+      rows: 2
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_13
+        title: Portainer
+        description: Portainer
+        icon: fa fa-list
+        url: https://docker.slxt.org
+        target: newtab
+        id: 0_1062_portainer
+      - &ref_14
+        title: Kasm
+        description: Kasm Admin Page
+        icon: fa fa-list
+        url: https://kasm-admin.slxt.org
+        target: newtab
+        id: 1_1062_kasm
+    filteredItems:
+      - *ref_13
+      - *ref_14
+  - name: Multimedia
+    icon: fa fa-film
+    displayData:
+      sortBy: default
+      rows: 2
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_15
+        title: Music
+        description: Music
+        icon: fa fa-music
+        url: https://music.slxt.org
+        target: newtab
+        id: 0_1035_music
+      - &ref_16
+        title: Movies
+        description: Movies via Jellyfin
+        icon: fa fa-film
+        url: https://movies.slxt.org
+        target: newtab
+        id: 1_1035_movies
+    filteredItems:
+      - *ref_15
+      - *ref_16
